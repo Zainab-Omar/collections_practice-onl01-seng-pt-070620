@@ -27,7 +27,10 @@ def reverse_array(array)
   reversed_array
 end
 
-def kesha_maker
+def kesha_maker(string)
+  string.each do |replace_letter|
+    replace_letter[2]="$"
+  end
 end
 
 def find_a
