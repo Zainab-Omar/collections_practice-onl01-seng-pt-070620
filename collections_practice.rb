@@ -35,7 +35,8 @@ end
 
 def find_a(array)
   array.find? do |element|
-    
+    element[0]=="a"
+  end
 end
 
 def sum_array
