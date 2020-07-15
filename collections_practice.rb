@@ -22,7 +22,9 @@ def swap_elements(element)
   element
 end
 
-def reverse_array
+def reverse_array(array)
+  reversed_array=array.reverse
+  reversed_array
 end
 
 def kesha_maker
