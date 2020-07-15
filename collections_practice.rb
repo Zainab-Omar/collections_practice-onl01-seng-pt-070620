@@ -41,7 +41,10 @@ end
 
 def sum_array(numbers)
   sum=0
-  numbers.
+  numbers.each do |x|
+    sum+=x
+  end
+  sum
 end
 
 def add_s
