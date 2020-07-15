@@ -33,7 +33,9 @@ def kesha_maker(string)
   end
 end
 
-def find_a
+def find_a(array)
+  array.find? do |element|
+    
 end
 
 def sum_array
